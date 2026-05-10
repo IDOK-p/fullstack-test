@@ -27,14 +27,14 @@
 
 ### 2. Запуск проекта
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ---
 
 ### 3. Инициализация приложения
 ```bash
-docker-compose exec web bash
+docker compose exec web bash
 composer install
 ```
 
